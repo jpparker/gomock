@@ -1,4 +1,4 @@
-module github.com/jpparker/gomock
+module github.com/golang/mock
 
 require (
 	golang.org/x/mod v0.5.1
