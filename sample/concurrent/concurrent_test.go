@@ -5,9 +5,9 @@ import (
 
 	"context"
 
-	"github.com/golang/mock/gomock"
+	"github.com/jpparker/gomock/gomock"
 
-	mock "github.com/golang/mock/sample/concurrent/mock"
+	mock "github.com/jpparker/gomock/sample/concurrent/mock"
 )
 
 func call(ctx context.Context, m Math) (int, error) {

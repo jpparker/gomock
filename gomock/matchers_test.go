@@ -14,7 +14,7 @@
 
 package gomock_test
 
-//go:generate mockgen -destination internal/mock_gomock/mock_matcher.go github.com/golang/mock/gomock Matcher
+//go:generate mockgen -destination internal/mock_gomock/mock_matcher.go github.com/jpparker/gomock/gomock Matcher
 
 import (
 	"context"
@@ -22,8 +22,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/golang/mock/gomock"
-	"github.com/golang/mock/gomock/internal/mock_gomock"
+	"github.com/jpparker/gomock/gomock"
+	"github.com/jpparker/gomock/gomock/internal/mock_gomock"
 )
 
 type A []string

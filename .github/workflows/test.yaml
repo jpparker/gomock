@@ -30,7 +30,7 @@ jobs:
 
     - name: Install mockgen
       run: |
-        go install github.com/golang/mock/mockgen
+        go install github.com/jpparker/gomock/mockgen
 
     - name: Run test script
       run: |

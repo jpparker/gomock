@@ -7,7 +7,7 @@ package mock_vendor_dep
 import (
 	reflect "reflect"
 
-	gomock "github.com/golang/mock/gomock"
+	gomock "github.com/jpparker/gomock/gomock"
 	present "golang.org/x/tools/present"
 )
 

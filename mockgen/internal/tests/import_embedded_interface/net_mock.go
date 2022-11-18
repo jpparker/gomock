@@ -8,7 +8,7 @@ import (
 	http "net/http"
 	reflect "reflect"
 
-	gomock "github.com/golang/mock/gomock"
+	gomock "github.com/jpparker/gomock/gomock"
 )
 
 // MockNet is a mock of Net interface.

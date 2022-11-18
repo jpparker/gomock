@@ -5,7 +5,7 @@
 package parenthesized_parameter_type
 
 import (
-	gomock "github.com/golang/mock/gomock"
+	gomock "github.com/jpparker/gomock/gomock"
 	reflect "reflect"
 )
 

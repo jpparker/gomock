@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	gomock "github.com/golang/mock/gomock"
+	gomock "github.com/jpparker/gomock/gomock"
 )
 
 // TestValidInterface assesses whether or not the generated mock is valid

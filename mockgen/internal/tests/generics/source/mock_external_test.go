@@ -7,9 +7,9 @@ package source
 import (
 	reflect "reflect"
 
-	gomock "github.com/golang/mock/gomock"
-	generics "github.com/golang/mock/mockgen/internal/tests/generics"
-	other "github.com/golang/mock/mockgen/internal/tests/generics/other"
+	gomock "github.com/jpparker/gomock/gomock"
+	generics "github.com/jpparker/gomock/mockgen/internal/tests/generics"
+	other "github.com/jpparker/gomock/mockgen/internal/tests/generics/other"
 	constraints "golang.org/x/exp/constraints"
 )
 
